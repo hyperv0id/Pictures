@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T08:19:09.995Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qRXDv_krNc0Bp96qho3v" version="21.3.8" type="github">
-  <diagram name="第 1 页" id="jgY8s5olxvLONksZ0MlG">
+<mxfile host="app.diagrams.net" modified="2023-06-19T09:33:16.012Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uocInrUo2lwwmPYjF1-p" version="21.3.8" type="github" pages="2">
+  <diagram name="1-定义Attribute&amp;Tuple" id="jgY8s5olxvLONksZ0MlG">
     <mxGraphModel dx="794" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -135,6 +135,40 @@
             <mxPoint x="548" y="260" as="sourcePoint" />
             <mxPoint x="670" y="300" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Mp4Tw2Tvwu0XvsTg8l-N" name="1-关系-键们">
+    <mxGraphModel dx="794" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JCNZxlJOjvZb-kWBRo13-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JCNZxlJOjvZb-kWBRo13-1" target="JCNZxlJOjvZb-kWBRo13-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JCNZxlJOjvZb-kWBRo13-1" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;超键&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JCNZxlJOjvZb-kWBRo13-2" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;键&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JCNZxlJOjvZb-kWBRo13-3" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;主键&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="490" y="70" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JCNZxlJOjvZb-kWBRo13-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JCNZxlJOjvZb-kWBRo13-4" target="JCNZxlJOjvZb-kWBRo13-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JCNZxlJOjvZb-kWBRo13-12" value="主键是特殊的候选键" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JCNZxlJOjvZb-kWBRo13-11">
+          <mxGeometry x="-0.2625" relative="1" as="geometry">
+            <mxPoint x="60" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCNZxlJOjvZb-kWBRo13-4" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;候选键&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JCNZxlJOjvZb-kWBRo13-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="460" y="90" width="30" height="145" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
